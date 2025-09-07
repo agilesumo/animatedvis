@@ -47,7 +47,7 @@ let canvas;
 
 function setup() {
 
-    imgWashMachine = loadImage("assets/washing_machine.png");
+  imgWashMachine = loadImage("assets/washing_machine.png");
   imgTub = loadImage("assets/bathtub.png");
 
   imgToilet = loadImage("assets/toilet.png");
