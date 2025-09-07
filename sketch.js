@@ -43,17 +43,17 @@ let imgWashMachine;
 let beginVisualisation;
 let canvas;
 
-// Load the image.
-function preload() {
-  imgWashMachine = loadImage("/assets/washing_machine.png");
+
+
+function setup() {
+
+   imgWashMachine = loadImage("/assets/washing_machine.png");
 
   imgToilet = loadImage("/assets/toilet.png");
   imgShower = loadImage("/assets/shower.png");
   imgTap = loadImage("/assets/tap.png");
   imgTub = loadImage("/assets/bathtub.png");
-}
-
-function setup() {
+  
   canvas = createCanvas(512, 512);
 
   startVisualisation = createButton("Home Water Usage Visualisation", "white");
